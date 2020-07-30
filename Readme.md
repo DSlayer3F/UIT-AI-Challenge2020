@@ -5,7 +5,7 @@
     "colab": {
       "name": "Untitled0.ipynb",
       "provenance": [],
-      "authorship_tag": "ABX9TyPJZ4PpQsdcwd3hAfgzYU+q",
+      "authorship_tag": "ABX9TyPVLUkIhBVzC+JRywCk3nOk",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -27,6 +27,30 @@
     {
       "cell_type": "markdown",
       "metadata": {
+        "id": "0Rpn_tPTJ1Ec",
+        "colab_type": "text"
+      },
+      "source": [
+        "**Có môi trường tương tự như Google Colab cung cấp bởi Amazon, Microsoft, IBM, etc hay không?**\n",
+        "\n",
+        "Azure Notebooks, Kaggle, Amazon Sagemaker, IBM DataPlatform Notebooks, Jupyter Notebook"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "hsiXHkHQPeqx",
+        "colab_type": "text"
+      },
+      "source": [
+        "**Code của Google Colab lưu ở đâu?**\n",
+        "\n",
+        "ở Google Drive"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
         "id": "UkuvRwBNIHkc",
         "colab_type": "text"
       },
@@ -34,6 +58,43 @@
         "**Khi chương trình chạy trên Google Colab cần đọc dữ liệu thì dữ liệu lưu ở đâu?**\n",
         "1. ở Local upload lên\n",
         "2. mount từ google drive"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "OgxtKoW4O8ao",
+        "colab_type": "text"
+      },
+      "source": [
+        "**Khi chương trình chạy trên Google Colab cần đọc dữ liệu từ máy cục bộ (local computer ví dụ như desktop hay laptop của bạn) thì làm thế nào**\n",
+        "\n",
+        "Tại cell code -> add a Form -> add a Form field"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "Xpz3k9y-P7HG",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        "#@title Default title text\n"
+      ],
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "xjgZsfNIJAii",
+        "colab_type": "text"
+      },
+      "source": [
+        "**Cách đổi sang máy dùng GPU**\n",
+        "\n",
+        "Edit -> Notebook settings -> đổi từ None sang GPU"
       ]
     },
     {
@@ -47,28 +108,6 @@
         "\n",
         "1. thực thi từng cell: Ctrl + Enter\n",
         "2. thực thi tất cả cell: Ctrl + F9 hoặc Runtime -> Run all"
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "0Rpn_tPTJ1Ec",
-        "colab_type": "text"
-      },
-      "source": [
-        ""
-      ]
-    },
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "xjgZsfNIJAii",
-        "colab_type": "text"
-      },
-      "source": [
-        "**Cách đổi sang máy dùng GPU**\n",
-        "\n",
-        "Edit -> Notebook settings -> đổi từ None sang GPU"
       ]
     }
   ]
